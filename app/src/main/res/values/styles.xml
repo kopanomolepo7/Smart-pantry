@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- One small type scale used everywhere, so "what does a card title
+         look like" has one answer instead of being redefined per layout.
+
+         Style names are deliberately undotted: a dotted name such as
+         Text.CardTitle makes Android infer a parent style called "Text",
+         which does not exist, and the resource build fails. These styles
+         stand alone and inherit from nothing. -->
+
+    <style name="TextScreenTitle">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/pantry_ink</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="TextDetailTitle">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/pantry_ink</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextCardTitle">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/pantry_ink</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextSectionHeader">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/pantry_ink</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextBody">
+        <item name="android:textColor">@color/pantry_ink</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextCaption">
+        <item name="android:textColor">@color/pantry_muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>

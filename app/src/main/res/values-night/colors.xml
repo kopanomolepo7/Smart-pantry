@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only the tokens that need to flip for dark mode are redefined here.
+         pantry_bar, pantry_on_accent, pantry_ochre and pantry_brick read fine
+         on both light and dark screens, so they fall back to colors.xml. -->
+    <color name="pantry_parchment">#1E0D09</color>
+    <color name="pantry_card">#2B1611</color>
+    <color name="pantry_ink">#F1E7E5</color>
+    <color name="pantry_muted">#C5B0AB</color>
+    <color name="pantry_line">#412E29</color>
+</resources>

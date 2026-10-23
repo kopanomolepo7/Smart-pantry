@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- "Cocoa Blush & Lagoon Teal" palette (random variation: warm blush-tinted neutrals + deep teal accent).
+         Same token roles as before, so dark mode can override backgrounds
+         and text independently:
+           pantry_bar        - app-bar / status-bar background (stays dark in both modes)
+           pantry_on_accent  - text/icons drawn on the bar OR the accent (stays light in both modes)
+           pantry_parchment  - main screen background (light by day, dark by night)
+           pantry_card       - card surfaces, sit above pantry_parchment
+           pantry_ink        - primary text color on pantry_parchment/pantry_card
+           pantry_muted      - secondary text
+           pantry_line       - hairline rules on cards/dividers
+           pantry_ochre      - single interactive accent (buttons, FAB, selected tab)
+           pantry_brick      - delete / expiring / error -->
+    <color name="pantry_bar">#431A10</color>
+    <color name="pantry_on_accent">#FDF2EF</color>
+    <color name="pantry_parchment">#F4E5E1</color>
+    <color name="pantry_card">#FCF8F7</color>
+    <color name="pantry_ink">#311812</color>
+    <color name="pantry_muted">#785850</color>
+    <color name="pantry_line">#E0CAC4</color>
+    <color name="pantry_ochre">#22758E</color>
+    <color name="pantry_brick">#95341C</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Empty states -->
+    <string name="empty_pantry">Your pantry is empty. Tap + to add an ingredient.</string>
+    <string name="empty_recipes">No recipes match your pantry yet. Add more ingredients to see suggestions.</string>
+    <string name="empty_almost_there">Nothing close yet — add a few more ingredients.</string>
+</resources>
